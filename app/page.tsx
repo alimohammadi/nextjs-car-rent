@@ -1,7 +1,8 @@
-
 export default function Home() {
   return (
-    <div>
-    </div>
+    <section className="grid md:grid-cols-3">
+      <div>Booking</div>
+      <div className="col-span-2 max-md:order-first">Map</div>
+    </section>
   );
 }
