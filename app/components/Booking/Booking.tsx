@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import AutocompleteAddress from "./AutocompleteAddress";
+import Cars from "./Cars";
 
 const Booking = () => {
   const [screenHeight] = useState(() => window.innerHeight * 0.72);
@@ -14,6 +15,7 @@ const Booking = () => {
         style={{ height: screenHeight }}
       >
         <AutocompleteAddress />
+        <Cars />
       </div>
     </div>
   );
